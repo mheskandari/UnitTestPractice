@@ -3,7 +3,7 @@ using CarAgency.Repositories;
 
 namespace CarAgency.Services
 {
-    public class BookingService
+    public class BookingService : IBookingService
     {
         private ICarsAPI carsAPI;
         private ICarDatabase carDatabase;
